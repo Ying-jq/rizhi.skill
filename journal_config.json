@@ -7,7 +7,8 @@
   "preferences": {
     "date_format": "M.D",
     "auto_add_weather_weekday": true,
-    "git_auto_commit": true
+    "git_auto_commit": true,
+    "export_format": "md"
   },
 
   "safety": {
@@ -28,7 +29,7 @@
     "daily_reminder": {
       "enabled": false,
       "time": "21:00",
-      "message": "宝宝，今天记得写日志哦~"
+      "message": "今天记得写日志哦~"
     },
     "gap_reminder": {
       "enabled": false,
