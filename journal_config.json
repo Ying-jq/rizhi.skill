@@ -1,0 +1,48 @@
+{
+  "root_path": "F:\\yuque-dl-main\\download\\日志+复盘",
+  "initialized": true,
+  "initialized_date": "2026-05-15",
+  "notes": "这是示例配置，请根据实际情况修改root_path",
+
+  "preferences": {
+    "date_format": "M.D",
+    "auto_add_weather_weekday": true,
+    "git_auto_commit": true
+  },
+
+  "safety": {
+    "backup_before_overwrite": true,
+    "backup_dir": ".backup",
+    "config_protected": true,
+    "show_path_before_delete": true,
+    "confirm_before_delete": true,
+    "force_git_protection": true
+  },
+
+  "content_filter": {
+    "enabled": false,
+    "replacement": "***"
+  },
+
+  "reminders": {
+    "daily_reminder": {
+      "enabled": false,
+      "time": "21:00",
+      "message": "宝宝，今天记得写日志哦~"
+    },
+    "gap_reminder": {
+      "enabled": false,
+      "threshold_days": 3
+    },
+    "monthly_reminder": {
+      "enabled": false,
+      "day": "last",
+      "message": "本月最后一天，记得生成月志复盘哦~"
+    },
+    "quiet_hours": {
+      "enabled": false,
+      "start": "23:00",
+      "end": "08:00"
+    }
+  }
+}
